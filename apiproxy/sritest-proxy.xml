@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="sritest-proxy">
+    <Basepaths>/sritest-api1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1628952905124</CreatedAt>
+    <CreatedBy>sree52mail@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>sritest-proxy</DisplayName>
+    <LastModifiedAt>1628953584777</LastModifiedAt>
+    <LastModifiedBy>sree52mail@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8d615a2d423db4b60cfa62ed30c725c582b482c1c64ac81bb1ab3bd60a3b83b0de967fd138219fbee3a9fa6fa0117ea6cae0806ccd5acac94ceb946fd8cf0526:us-east-1</ManifestVersion>
+    <Policies>
+        <Policy>Quota-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
