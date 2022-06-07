@@ -1,13 +1,15 @@
 pipeline {
     agent any
 
+    environment {
+        docker-hub = credentials('docker-hub')
+    }
+
     stages {
         stage('Build') {
             steps {
                 echo 'Building..'
-                withCredentials([usernamePassword(credentialsId: 'docker-hub', passwordVariable: 'pass', usernameVariable: 'user')]) {
-                    // the code here can access $pass and $user
-                    echo  '$pass'
+                echo $docker-hub                
                 }
             }
         }
