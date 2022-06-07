@@ -10,6 +10,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                docker.withRegistry('docker-hub', registryCredential ) {
+                  echo "docker registery"
+                }
                 }
             }
         }
