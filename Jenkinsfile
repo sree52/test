@@ -1,10 +1,11 @@
 pipeline {
     agent any
 
-    environment
-      {
-        docker-hub = credentials('docker-hub')
-      }
+    environment {
+    registry = "YourDockerhubAccount/YourRepository"
+    registryCredential = 'dockerhub_id'
+    dockerImage = ''
+    }
 
     stages {
         stage('Build') {
