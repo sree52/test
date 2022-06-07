@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-                echo $docker-hub                
+                echo 'Building..'            
                 }
             }
         }
