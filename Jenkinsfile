@@ -5,9 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                docker.withRegistry( '', registryCredential ) {
-                 echo "Testing...."
-                }
                 }
             }
         stage('Test') {
