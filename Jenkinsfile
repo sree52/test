@@ -7,7 +7,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+            sh """
               env
+             """  
               //  echo $docker_cred_PSW
             //  echo $docker_cred_USR
 
